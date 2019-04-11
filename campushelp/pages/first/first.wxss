@@ -1,0 +1,22 @@
+
+.container {
+  height: 100%;
+  display: flex;
+} 
+
+.but{
+  text-align: center;
+  position: absolute;
+  margin-top: 50%;
+  margin-left: 280rpx;
+}
+button::after
+{
+  border: none;
+}
+page{
+  background-image:url('https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1554970531088&di=5903be9fc4828ce549509c1816fcdc78&imgtype=0&src=http%3A%2F%2Fku.90sjimg.com%2Fback_pic%2F04%2F96%2F82%2F92592e88f803d94.jpg');
+   background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+}

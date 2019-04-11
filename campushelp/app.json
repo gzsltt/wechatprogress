@@ -1,0 +1,37 @@
+{
+  "pages":[
+    "pages/first/first",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/kuaidi/kuaidi",
+    "pages/qita/qita",
+    "pages/waimai/waimai"
+  ],
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/first/first",
+      "text": "首页",
+      "iconPath": "img/School-11.png",
+      "selectedIconPath": "img/School-12.png"
+    },
+    {
+      "pagePath": "pages/first/first",
+      "text": "信息栏",
+      "iconPath": "img/School-13.png",
+      "selectedIconPath": "img/School-14.png"
+    },
+    {
+      "pagePath": "pages/first/first",
+      "text": "我",
+      "iconPath": "img/School-15.png",
+      "selectedIconPath": "img/School-16.png"
+    }
+    ],
+    "color": "#000000",
+    "selectedColor": "#a4579d"
+  },
+  "window": {
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTextStyle": "black"
+  }
+}

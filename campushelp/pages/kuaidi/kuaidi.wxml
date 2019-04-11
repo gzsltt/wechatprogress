@@ -1,0 +1,97 @@
+<view class='head'>
+  <view class='headtext'>
+    <text>需要取件</text>
+  </view>
+</view>
+
+<view class='but'>
+  <button class='but1' bindtap='fillkuaidi' type='default'    size='mini'>
+    <image src='../../img/School-28.png' class='tubiao'>
+    </image>
+    <text>快递</text>
+  </button>
+
+  <button class='but2' bindtap='fillwaimai' type='default'    size='mini'>
+    <image src='../../img/School-60.png' class='tubiao'>
+    </image>
+    <text>外卖</text>
+  </button>
+
+  <button class='but3' bindtap='fillkuaidi' type='default'    size='mini'>
+    <image src='../../img/School-70.png' class='tubiao'>
+    </image>
+    <text>其他</text>
+  </button>
+</view>
+
+<view class='forms'>
+  <form bindsubmit="formSubmit" bindreset="formReset">
+
+  <view class='unit'>
+    <view class='title'><text>收件人姓名：</text></view>
+    <view class='input'>
+    <input name='name' placeholder='只有对方接单后才能看到您的姓名' type="text" bindinput="inputname"></input>
+    </view></view>
+
+    <view class='unit'>
+    <view class='title'><text>收件人电话：</text></view>
+    <view class='input'>
+    <input name='tel' placeholder='只有对方接单后才能看到您的电话' type="text" bindinput="inputtel"></input>
+    </view></view>
+
+    <view class='unit'>
+    <view class='title'><text>快递公司：</text></view>
+    <view class='input'>
+    <input name='company' placeholder='' type="text" bindinput="inputcompany"></input>
+    </view></view>
+
+    <view class='unit'>
+    <view class='title'><text>取件点：</text></view>
+    <view class='input'>
+    <input name='place' placeholder='' type="text" bindinput="inputplace" ></input>
+    </view></view>
+
+    <view class='unit'>
+    <view class='title'><text>取件时间：</text></view>
+    <view class='input'>
+    <input name='time' placeholder='' type="text" bindinput="inputtime"></input>
+    </view></view>
+
+    <view class='unit'>
+    <view class='title'><text>备注：</text></view>
+    <view class='input'>
+    <input name='ps' placeholder='如取件码、单号等' type="text" bindinput="inputps"></input>
+    </view></view>
+
+    <view class='unit'>
+    <view class='title'><text>小费金额：</text></view>
+    <view class='input'>
+    <input name='tips' placeholder='不设标准，自己决定哦~' type="text" bindinput="inputtips" ></input>
+    </view>
+  </view>
+
+  <view class='unit'>
+    <view class='title'><text>你需要他送到：</text></view>
+    <view class='input'>
+    <input name='building' placeholder='哪栋宿舍楼/教学楼' type="text" bindinput="inputbuilding"></input>
+    </view></view>
+
+    <view class='unit'>
+    <view class='title'><text>房间号：</text></view>
+    <view class='input'>
+    <input name='room' placeholder='哪个宿舍号/教室' type="text" bindinput="inputroom"></input>
+    </view></view>
+
+
+    <view class='formbutton'>
+      <view class='submitbut'>
+        <button form-type="submit" size='default' bindtap='tishiwin'>Submit
+        </button>
+      </view>
+      <view class='resetbut'>
+        <button form-type="reset" size='default'>Reset
+        </button>
+      </view>
+    </view>
+  </form>
+</view>

@@ -1,0 +1,6 @@
+<view class='container'>
+<view class='but'>
+<button type='default' bindtap='fillkuaidi'>
+<view>需要取件</view></button>
+</view>
+</view>
